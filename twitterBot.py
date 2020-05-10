@@ -9,10 +9,10 @@ NUM_OF_IMAGES = 20
 
 sia = SentimentIntensityAnalyzer()
 
-consumer_key = 'yEJaIPSIonooZNUypi1n7RZlJ'
-consumer_secret = 'wTwBOIldBwsXiIKsMns03Om8TGVhxFu7MSF8c1WmRP3l2MzwYB'
-access_token = '1230215201602953217-cswUBs429Tp6iS6hAW2ZH579uRnRmq'
-access_token_secret = 'sLDjboYc2NhTypyZiWtxUSAWJ50Mzp1RKp8VoXfu04DZg'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
